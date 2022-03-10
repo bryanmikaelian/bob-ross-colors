@@ -25,7 +25,7 @@
   [:div
     [header-component]
     [:div.max-w-7xl.mx-auto.px-4.pt-4.pb-8
-      [:ul.grid.grid-cols-2.gap-x-4.gap-y-8
+      [:ul.grid.grid-cols-2.gap-x-4.gap-y-4
         (for [color d/colors]
           ^{:key (color :color/hex)} (color-swatch-component color))]]])
 
